@@ -1,0 +1,31 @@
+Projeto gerenciador de tarefas pessoal e coletivo
+
+Fomos contratados para criar um gerenciador de tarefas pessoal e coletivo, que pode ser usado 
+por pessoas normais em seu dia a dia ou por empresas que desejam ter uma forma de organizar suas 
+equipes de forma mais eficiente.
+
+
+
+Requisitos funcionais
+
+cadastrar usuarios
+nome do usuario
+numero de telefone do usuario
+email
+
+deve possuir um sistema de login com senha
+cadastrar tarefas
+alterar tarefas
+deletar tarefas
+compartilhar tarefas
+definir um tempo limite para as tarefas
+colocar uma progressão nas tarefas podendo dizer por exemplo quantos % falta ser concluido
+
+Requisitos não funcionais
+
+tem que possuir acessibilidade entre plataformas
+deve possuir uma interface simples
+ele tem que funcionar rapido
+ele tem garantir a segurança das informações dos usuarios
+ele tem que garatir que ira funcionar durante 99,9% do tempo ativo em que é usado
+deve ser capaz de se recuperar rapido em caso de falha
