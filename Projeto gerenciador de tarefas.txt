@@ -5,24 +5,35 @@ O sistema é um gerenciador de tarefas feito para facilitar o registro de metas 
 Requisitos funcionais
 
 
-cadastrar usuários: O sistema deve ser capaz de cadastrar usuários novos, com seus nomes, números de telefone e email.
+RF1: cadastrar usuários: O sistema deve ser capaz de cadastrar usuários novos, com seus nomes, números de telefone e e-mail.
 deve possuir um sistema de login com senha
-cadastrar tarefas: O sistema deve ser capaz de registrar tarefas novas.
-alterar tarefas: O sistema deve poder alterar o objetivo de tarefas já existentes
-deletar tarefas: O sistema deve poder deletar tarefas registradas
-definir uma data de meta para tarefas: O sistema deve poder definir datas específicas para as tarefas.
+
+RF2: cadastrar tarefas: O sistema deve ser capaz de registrar tarefas novas.
+
+RF3: alterar tarefas: O sistema deve poder alterar o objetivo de tarefas já existentes
+
+RF4: deletar tarefas: O sistema deve poder deletar tarefas registradas
+
+RF5: definir uma data de meta para tarefas: O sistema deve poder definir datas específicas para as tarefas.
 colocar uma progressão nas tarefas: O sistema tem que ter uma função que mostra o progresso das tarefas, por exemplo uma meta de beber água diária poder dizer quantos % já foram concluídos, representando quanta água o usuário já bebeu
-notificações: O sistema deve conseguir alertar o usuário, quando falta pouco tempo para a data limite de tarefas.
-O sistema deve ser capaz de alertar os usuários através do email, para facilitar o aviso.
+
+RF6: notificações: O sistema deve conseguir alertar o usuário, quando falta pouco tempo para a data limite de tarefas.
+O sistema deve ser capaz de alertar os usuários através do e-mail, para facilitar o aviso.
 
 
 Requisitos não funcionais
 
 
-tem que possuir acessibilidade entre plataformas: O sistema precisa poder ser acessado tanto por desktop quanto por tablets e dispositivos móveis.
-deve possuir uma interface simples: O sistema deve possuir uma interface simples para que os usuários não tenham dificuldade para entender.
-ele tem que funcionar rápido
-ele tem garantir a segurança das informações dos usuários
-O sistema deve funcionar no dispositivo do usuário mesmo estando em segundo plano, e caso ele esteja sendo utilizado em segundo plano, deve ser bem otimizado.
-ele tem que garantir que irá funcionar durante 99,9% do tempo ativo em que é usado
-deve ser capaz de se recuperar rápido em caso de falha
+RNF1: tem que possuir acessibilidade entre plataformas: O sistema precisa poder ser acessado tanto por desktop quanto por tablets e dispositivos móveis.
+
+RNF2: deve possuir uma interface simples: O sistema deve possuir uma interface simples para que os usuários não tenham dificuldade para entender.
+
+RNF3:ele tem que funcionar rápido: O sistema deve ter um tempo de resposta veloz.
+
+RNF4: ele tem garantir a segurança das informações dos usuários
+
+RNF5: O sistema deve funcionar no dispositivo do usuário mesmo estando em segundo plano, e caso ele esteja sendo utilizado em segundo plano, deve ser bem otimizado.
+
+RNF6: ele tem que garantir que irá funcionar durante 99,9% do tempo ativo em que é usado
+
+RNF7: deve ser capaz de se recuperar rápido em caso de falha
